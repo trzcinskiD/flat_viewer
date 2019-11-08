@@ -50,6 +50,7 @@ class App extends Component {
             rowStyle: rowData => ({ backgroundColor: rowData.love ? "yellow" : "white" })
           }}
           editable={{
+            isDeletable: rowData => rowData.love !== true,
             onRowUpdate: async (newData, oldData) => {
               const newDoc = await editFlat(oldData._id, newData.realPrice, oldData.love);
               const data = this.state.flats;
