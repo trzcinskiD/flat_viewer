@@ -12,4 +12,4 @@ const getFlats = async () => {
   }
 };
 
-module.exports = getFlats;
+export default getFlats;

@@ -2,6 +2,11 @@
   "name": "flat_viewer",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "13.0.1",
+    "npm": "6.9.0",
+    "yarn": "1.19.1"
+  },
   "dependencies": {
     "@material-ui/core": "^4.6.0",
     "@material-ui/icons": "^4.5.1",

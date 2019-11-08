@@ -11,4 +11,4 @@ const deleteFlat = async (id, url) => {
   }
 };
 
-module.exports = deleteFlat;
+export default deleteFlat;

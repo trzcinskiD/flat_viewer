@@ -10,4 +10,4 @@ const editFlat = (id, realPrice, love) => {
   }
 };
 
-module.exports = editFlat;
+export default editFlat;
