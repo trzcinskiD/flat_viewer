@@ -36,7 +36,7 @@ class App extends Component {
             { title: "Dodane", field: "time", editable: "never" },
             { title: "Lokalizacja", field: "location", editable: "never" },
             { title: "Cena", field: "price", editable: "never" },
-            { title: "Cena rzeczywista", field: "realPrice", type: "numeric" },
+            { title: "Cena rzeczywista", field: "realPrice" },
             { title: "Link", field: "url", editable: "never", render: rowData => <a href={rowData.url}>LINK</a> },
             { title: "Warte uwagi!", field: "love", type: "boolean", hidden: true }
           ]}
